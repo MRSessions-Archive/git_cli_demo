@@ -1,4 +1,6 @@
-# Work in Progress
+# Work in Progress (To be Posted on <https://blog.mrsessions.com>)
+I will be using this repository to make changes on and demonstrate the different commands with terminal screenshots.
+
 # Common Git Commands You Should Know Working on a Team 
 
 Over the past few years of development, I've used Team Foundation Version Control (TFVC) and Git. Both are great repository tools (my opinion Git is a winner), and ones I have always used a GUI interface for, until recently. Even if you have used GUI tools to assist you in your daily Git adventures, you should still have an understanding of the Git CLI.
