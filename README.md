@@ -10,29 +10,29 @@ I use an Azure DevOps Git repository for both the company and startup I work for
 So, recently, I decided that I was going to learn how to use the Git CLI so that I can best help my developers when they needed help. With this, I have decided that I would include a list of common git commands you should know when you are working in a team. That means that I won't cover how to initialize a repository or other tasks, but rather, common Git commands you can use. As a bonus, I have started using the Git CLI more than GitKraken now.
 
 The list of commands I use, in no particular order:
-git clone <repository url>
-git checkout <branch>
-git checkout -b <new-branch-name>
-git fetch
-git branch
-git status
-git log
-git branch -r
-git pull
-git add .
-git add <file>
-git commit -m "<commit message>"
-git push
-git push --force
-git branch -d <branch>
-git branch -D <branch>
-git rebase -i <>
-git rebase <branch>
-git rebase --abort
-git rebase --continue
-git stash
-git stash pop
-git stash apply
+* git clone <repository url>
+* git checkout <branch>
+* git checkout -b <new-branch-name>
+* git fetch
+* git branch
+* git status
+* git log
+* git branch -r
+* git pull
+* git add .
+* git add <file>
+* git commit -m "<commit message>"
+* git push
+* git push --force
+* git branch -d <branch>
+* git branch -D <branch>
+* git rebase -i <>
+* git rebase <branch>
+* git rebase --abort
+* git rebase --continue
+* git stash
+* git stash pop
+* git stash apply
   
 ## Git Clone \<Repository Url\>
 When you first join a team that uses Git, cloning the repository is generally the first thing you will need to do. Find a directory you want to use for storing your repository, on Mac and Windows I store my repositories in <documents/source/repos>. In your terminal type `git clone https://github.com/MRSessions/git_cli_demo.git`. Of course, use the correct clone URL here. Once that's cloned, you should be in the master/main branch.
